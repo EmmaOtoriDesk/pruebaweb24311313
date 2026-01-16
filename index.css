@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headbar{
+    background-color: #000000;
+    height: 10vh;
+}
+.headbar img{
+    height: 8vh;
+    margin-left: 2vw;
+    margin-top: 1vh;
+}
+.headbar p{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6vh;
+    text-align: center;
+    margin-top: -8vh;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: url('Ivan.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.banner{
+    margin: 0;
+    height: 30vh;
+    width: 80vw;
+    background-image: url('ALNST; Karma (final photo).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 6vh;
+    border: 4px solid white;
+    border-bottom: none;
+}
+.principal{
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 2vh;
+    background-color: #132440;
+    margin:auto;
+    border: 4px solid #8960e7;
+    border-top: none;
+}
+.informacion{
+    border: #8960e7 5px solid;
+    width: 40vw;
+    color: white;
+    font-family:fantasy; 
+    padding: 2vh;
+    margin: auto;
+}
+.informacion h1{
+    font-size: 4vh;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.informacion iframe{
+    display: block;
+    margin: auto;
+    margin-top: 2vh;
+    border: #000000 5px solid;
+}
